@@ -35,6 +35,7 @@ const Home = () => (
     </table>
   </div>
 );
+//All
 
 const About = () => (
   <div className="content">
