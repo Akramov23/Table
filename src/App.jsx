@@ -42,7 +42,9 @@ const About = () => (
     <p>Silicon Hub – zamonaviy IT kompaniya bo‘lib, dasturiy ta’minot ishlab chiqish, veb va mobil ilovalar yaratish, hamda startaplarni rivojlantirish bilan shug‘ullanadi. Biz mijozlarimizga yuqori sifatli va innovatsion texnologik echimlarni taqdim etamiz.</p>
   </div>
 );
+
 const Services = () => <div className="content"><h2>Xizmatlar</h2><p>Bizning taklif qiladigan xizmatlar.</p></div>;
+
 const Contact = () => <div className="content"><h2>Aloqa</h2><p>Biz bilan bog‘lanish uchun ma'lumotlar.</p></div>;
 
 const Sidebar = () => (
@@ -69,7 +71,7 @@ const App = () => {
         <header>
           <h1>Silicon-hub kompaniyamizga xush kelibsiz</h1>
           <button onClick={toggleDarkMode} className="dark-mode-toggle">
-            {darkMode ? "Light Mode" : "Dark Mode"}
+            {darkMode ? "Light Mode": "Dark Mode"}
           </button>
         </header>
         <div className="main-content">
